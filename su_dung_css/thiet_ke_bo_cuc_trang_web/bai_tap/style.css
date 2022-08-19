@@ -3,13 +3,28 @@
     height: 80px;
 }
 .left{
-    background: darkgrey;
+    background: ghostwhite;
+    height: 700px;
+    overflow: hidden;
+}
+.left:hover{
+    overflow: scroll;
 }
 .right{
     background: darkgrey;
+    height: 700px;
+    overflow: hidden;
+}
+.right:hover{
+    overflow: scroll;
 }
 .contain{
     background: #7abaff;
+    height: 700px;
+    overflow: hidden;
+}
+.contain:hover{
+    overflow: scroll;
 }
 .row{
      /*cho phép thẻ div (col) nổi lên trên*/
