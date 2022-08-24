@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bb4d708e-f2a1-4fa0-bdaf-ceee9a3a3c7b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/build/classes/java/main/ServerTimeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/build/classes/java/main/ServerTimeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/build/libs/hien_thi_thoi_gian-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/build/libs/hien_thi_thoi_gian-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/src/main/java/ServerTimeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss09_tong_quan_web/thuc_hanh/hien_thi_thoi_gian/src/main/java/ServerTimeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/ServerTimeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/ServerTimeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo_jstl/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo_jstl/src/main/java/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo_jstl/src/main/java/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo_jstl/src/main/webapp/student/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/exercise/calculator/src/main/java/model/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/exercise/calculator/src/main/java/servlet/CalculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/exercise/calculator/src/main/webapp/display.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/exercise/list_of_customers/src/main/java/controller/CustomersServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/exercise/list_of_customers/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/exercise/list_of_customers/src/main/webapp/display.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/practice/converter/src/main/java/converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/practice/converter/src/main/webapp/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/practice/simple_dictionary/src/main/java/simple_dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/practice/simple_dictionary/src/main/webapp/dictionary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss09_tong_quan_web/bai_tap/product_discount_calculator/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss09_tong_quan_web/bai_tap/product_discount_calculator/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss09_tong_quan_web/bai_tap/product_discount_calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss09_tong_quan_web/bai_tap/product_discount_calculator/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +41,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,10 +56,22 @@
       <option name="presentableId" value="Default" />
       <updated>1661223474389</updated>
       <workItem from="1661223475528" duration="68000" />
+      <workItem from="1661326666466" duration="703000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
