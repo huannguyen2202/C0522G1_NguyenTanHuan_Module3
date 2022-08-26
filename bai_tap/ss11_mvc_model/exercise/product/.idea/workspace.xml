@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0083c1c1-7617-4180-821c-77e2ff19c896" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/IProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/impl/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/product/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/product/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/product/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/product/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/product/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/src/main/java/controller/CustomerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/src/main/java/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/src/main/java/service/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/src/main/java/service/impl/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/src/main/webapp/customer/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/src/main/webapp/customer/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/practice/user_manager/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/practice/user_manager/src/main/java/repository/IUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/practice/user_manager/src/main/java/repository/impl/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +154,7 @@
       <workItem from="1661477104604" duration="14000" />
       <workItem from="1661479440518" duration="4781000" />
       <workItem from="1661495396271" duration="7345000" />
-      <workItem from="1661516093714" duration="1979000" />
+      <workItem from="1661516093714" duration="2442000" />
     </task>
     <servers />
   </component>
