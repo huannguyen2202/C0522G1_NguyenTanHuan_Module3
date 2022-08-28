@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0083c1c1-7617-4180-821c-77e2ff19c896" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/repository/impl/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/webapp/view/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/webapp/view/display.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/webapp/view/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/webapp/view/error.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ss10_jsp_jstl/exercise/calculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -155,6 +165,9 @@
       <workItem from="1661479440518" duration="4781000" />
       <workItem from="1661495396271" duration="7345000" />
       <workItem from="1661516093714" duration="2442000" />
+      <workItem from="1661654245271" duration="354000" />
+      <workItem from="1661654683291" duration="858000" />
+      <workItem from="1661660264531" duration="23000" />
     </task>
     <servers />
   </component>
