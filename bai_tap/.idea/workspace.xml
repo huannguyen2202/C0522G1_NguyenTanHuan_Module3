@@ -5,23 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb4d708e-f2a1-4fa0-bdaf-ceee9a3a3c7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/demo_jstl/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo_jstl/src/main/java/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo_jstl/src/main/java/StudentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo_jstl/src/main/webapp/student/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/exercise/calculator/src/main/java/model/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/exercise/calculator/src/main/java/servlet/CalculatorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/exercise/calculator/src/main/webapp/display.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/exercise/list_of_customers/src/main/java/controller/CustomersServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/exercise/list_of_customers/src/main/java/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/exercise/list_of_customers/src/main/webapp/display.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/practice/converter/src/main/java/converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/practice/converter/src/main/webapp/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/practice/simple_dictionary/src/main/java/simple_dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_jsp_jstl/practice/simple_dictionary/src/main/webapp/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/model/AttachFacility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/model/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/model/ContractDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/model/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/model/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/model/EducationDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/model/Facility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/model/FacilityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/model/RentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/model/position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/repository/ICustomerTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/repository/impl/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/repository/impl/CustomerTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/service/IAttachFacilityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/service/ICustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/service/impl/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/java/service/impl/CustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_2/src/main/webapp/view/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_mvc_model/.idea/ss11_mvc_model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_jdbc_crud/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss09_tong_quan_web/bai_tap/product_discount_calculator/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss09_tong_quan_web/bai_tap/product_discount_calculator/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss09_tong_quan_web/bai_tap/product_discount_calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss09_tong_quan_web/bai_tap/product_discount_calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_2/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_2/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_2/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_2/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_2/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_2/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_2/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_2/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_2/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_2/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_2/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_2/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_2/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +61,37 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/case_study_2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="H:/C0522G1_NguyenTanHuan_Module3/bai_tap/ss12_jdbc_crud/exercise/user_manager/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ss12_jdbc_crud/exercise/user_manager/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.H:/C0522G1_NguyenTanHuan_Module3/bai_tap/ss12_jdbc_crud/exercise/user_manager/build.gradle" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,6 +103,8 @@
       <updated>1661223474389</updated>
       <workItem from="1661223475528" duration="68000" />
       <workItem from="1661326666466" duration="703000" />
+      <workItem from="1661679714343" duration="72000" />
+      <workItem from="1661680291842" duration="89000" />
     </task>
     <servers />
   </component>
@@ -73,5 +121,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
