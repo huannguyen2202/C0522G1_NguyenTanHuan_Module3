@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0083c1c1-7617-4180-821c-77e2ff19c896" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/controller/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/repository/BaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/repository/IUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/repository/impl/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/java/service/impl/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/webapp/view/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/webapp/view/display.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/webapp/view/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss12_jdbc_crud/exercise/user_manager/src/main/webapp/view/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0083c1c1-7617-4180-821c-77e2ff19c896" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,6 +155,7 @@
       <workItem from="1661654245271" duration="354000" />
       <workItem from="1661654683291" duration="858000" />
       <workItem from="1661660264531" duration="23000" />
+      <workItem from="1661737723001" duration="23000" />
     </task>
     <servers />
   </component>
