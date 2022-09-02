@@ -13,6 +13,7 @@ import java.util.List;
 
 public class CustomerTypeRepository implements ICustomerTypeRepository {
     private static final String FIND_ALL = "select * from customer_type;";
+
     @Override
     public List<CustomerType> findByAll() {
 
