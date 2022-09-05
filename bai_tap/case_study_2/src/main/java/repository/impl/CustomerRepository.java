@@ -30,11 +30,15 @@ public class CustomerRepository implements ICustomerRepository {
         List<Customer> customerList = new ArrayList<>();
         Connection connection = BaseRepository.getConnectDB();
 
+
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(FIND_ALL);
+
             ResultSet resultSet = preparedStatement.executeQuery();
 
+
             while (resultSet.next()) {
+
                 int customerId = resultSet.getInt("customer_id");
                 String customerName = resultSet.getString("customer_name");
                 String customerBirthday = resultSet.getString("customer_birthday");
@@ -53,6 +57,12 @@ public class CustomerRepository implements ICustomerRepository {
         }
 
         return customerList;
+    }
+
+    public static void main(String[] args) {
+        CustomerRepository customerRepository = new CustomerRepository();
+        List<Customer> customerList = customerRepository.findByAll();
+        System.out.println(customerList);
     }
 
     @Override

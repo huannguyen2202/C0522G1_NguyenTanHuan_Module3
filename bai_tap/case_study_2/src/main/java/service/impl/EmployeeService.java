@@ -22,4 +22,24 @@ public class EmployeeService implements IEmployeeService {
     public boolean create(Employee employee) {
         return iEmployeeRepository.create(employee);
     }
+
+    @Override
+    public Employee findById(int employeeId) {
+        return iEmployeeRepository.findById(employeeId);
+    }
+
+    @Override
+    public boolean edit(Employee employee) {
+        return iEmployeeRepository.edit(employee);
+    }
+
+    @Override
+    public boolean delete(int employeeId) {
+        return iEmployeeRepository.delete(employeeId);
+    }
+
+    @Override
+    public List<Employee> search(String nameSearch, String addressSearch, String phoneSearch) {
+        return iEmployeeRepository.search(nameSearch,addressSearch,phoneSearch);
+    }
 }

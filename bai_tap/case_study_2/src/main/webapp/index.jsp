@@ -14,8 +14,7 @@
     <title>$Title$</title>
     <style>
         .head {
-            background-color: #6DE3F7;
-
+            /*background-image: url(https://anhdepfree.com/wp-content/uploads/2020/11/hinh-nen-ve-nuoc.jpeg);*/
         }
 
         .cot31 {
@@ -37,7 +36,7 @@
 <body>
 <div class="container-fluid">
     <!--    hàng 1-->
-    <div class="row">
+    <div style="background-image: url(https://anhdepfree.com/wp-content/uploads/2020/11/hinh-nen-ve-nuoc.jpeg)" class="row">
         <div class="col-sm-3 col-lg-3 col-md-3 head">
             <img src="https://furamavietnam.com/wp-content/uploads/2018/10/logo.png" width="80px" height="80px"
                  style="margin-top: 15px;margin-left: 100px">
@@ -93,8 +92,8 @@
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                aria-expanded="false">Service</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Facility list</a></li>
-                                <li><a class="dropdown-item" href="#">Add new Facility</a></li>
+                                <li><a class="dropdown-item" href="/facility">Facility list</a></li>
+                                <li><a class="dropdown-item" href="/facility?action=create">Add new Facility</a></li>
                             </ul>
                         </li>
 
@@ -157,15 +156,15 @@
             <%--                 style="width: 100%" height="600px">--%>
             <div>
                 <img width="100%" height="600" id="img" onclick="changeImage()"
-                     src="https://furamavietnam.com/wp-content/uploads/2018/11/Vietnam_Danang_Furama_Resort_Exterior_Courtyard-Night.jpg"
+                     src="https://vtr.org.vn/FileManager/Anh%20web%202019/Thang%2010/2131/furama%20resort%20(1).jpg"
                      alt="">
             </div>
             <script>
                 var index = 1;
                 changeImage = function () {
-                    var imgs = ["https://furamavietnam.com/wp-content/uploads/2018/11/Vietnam_Danang_Furama_Resort_Exterior_Courtyard-Night.jpg",
-                        "https://furamavietnam.com/wp-content/uploads/2018/11/Vietnam_Danang_Furama_Resort_Exterior-Lobby.jpg",
-                        "https://furamavietnam.com/wp-content/uploads/2018/11/Vietnam_Danang_Furama_Resort_Exterior-Lagoon-Pool.jpg"];
+                    var imgs = ["https://vtr.org.vn/FileManager/Anh%20web%202019/Thang%2010/2131/furama%20resort%20(1).jpg",
+                        "https://gina.com.vn/wp-content/uploads/2021/10/resort-da-nang-7.jpg",
+                        "https://vtr.org.vn/FileManager/Anh%20web%202019/Thang%2010/2131/furama%20resort%20(2).jpg"];
                     document.getElementById('img').src = imgs[index];
                     index++;
                     if (index == 3) {
@@ -209,7 +208,6 @@
                         <p style="color: blue;font-size: 20px" class="card-text">Không gian riêng</p>
                     </div>
                 </div>
-
             </div>
             <!--            hàng 8.2-->
             <div style="margin-top: 40px" class="row">

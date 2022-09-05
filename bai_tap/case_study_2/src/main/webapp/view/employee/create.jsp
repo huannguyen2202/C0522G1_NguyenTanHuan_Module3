@@ -11,16 +11,21 @@
         a {
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
-<div style="background-image: url(https://anhdephd.vn/wp-content/uploads/2022/04/anh-nen-4k-logo-windows-cuc-chat-3840x2160-pixels.jpg)" class="mx-5 px-5 pt-3">
+<div style="background-image: url(https://anhdephd.vn/wp-content/uploads/2022/04/anh-nen-4k-logo-windows-cuc-chat-3840x2160-pixels.jpg)"
+     class="mx-5 px-5 pt-3">
     <h2 class="text-left fw-bold">Add new Employee</h2>
 
     <p class="text-left mt-3"><a href="/"><i class="fa-solid fa-house-chimney h5 mx-1"></i> Back to HOME</a></p>
+    <p class="text-left">
+        <a href="/employee"><i class="fa-solid fa-backward"></i> Back to Employee list</a>
+    </p>
 
     <c:if test="${mess!=null}">
         <c:if test="${check}">
@@ -45,12 +50,14 @@
 
     <div class="d-flex justify-content-left">
 
-        <form class="w-48 border border-2 border-success p-3 bg-warning rounded shadow-lg p-5 mb-7 bg-body rounded" action="/employee?action=create"
+        <form class="w-48 border border-2 border-success p-3 bg-warning rounded shadow-lg p-5 mb-7 bg-body rounded"
+              action="/employee?action=create"
               method="post">
             <div class="form-group">
                 <label for="employeeName" class="h6">Name:</label>
                 <div class="input-group">
-                    <input type="text" id="employeeName" class="form-control" placeholder="Input name" name="employeeName">
+                    <input type="text" id="employeeName" class="form-control" placeholder="Input name"
+                           name="employeeName">
                     <span class="input-group-text"> <i class="fa-solid fa-person-circle-question"></i></span>
                 </div>
             </div>
@@ -62,14 +69,16 @@
             <div class="mt-3 form-group">
                 <label for="employeeIdCard" class="h6">Id card:</label>
                 <div class="input-group">
-                    <input type="text" id="employeeIdCard" class="form-control" placeholder="Input Id card" name="employeeIdCard">
+                    <input type="text" id="employeeIdCard" class="form-control" placeholder="Input Id card"
+                           name="employeeIdCard">
                     <span class="input-group-text"><i class="fa-solid fa-id-card"></i></span>
                 </div>
             </div>
             <div class="mt-3 form-group">
                 <label for="employeeSalary" class="h6">Salary:</label>
                 <div class="input-group">
-                    <input type="text" id="employeeSalary" class="form-control" placeholder="Input Salary" name="employeeSalary">
+                    <input type="text" id="employeeSalary" class="form-control" placeholder="Input Salary"
+                           name="employeeSalary">
                     <span class="input-group-text"><i class="fa-solid fa-id-card"></i></span>
                 </div>
             </div>
@@ -77,7 +86,8 @@
             <div class="mt-3 form-group">
                 <label for="employeePhoneNumber" class="h6">Phone Number:</label>
                 <div class="input-group">
-                    <input type="text" id="employeePhoneNumber" class="form-control" placeholder="Input Phone Number" name="employeePhoneNumber">
+                    <input type="text" id="employeePhoneNumber" class="form-control" placeholder="Input Phone Number"
+                           name="employeePhoneNumber">
                     <span class="input-group-text"><i class="fa-solid fa-id-card"></i></span>
                 </div>
             </div>
@@ -85,7 +95,8 @@
             <div class="mt-3 form-group">
                 <label for="employeeEmail" class="h6">Email:</label>
                 <div class="input-group">
-                    <input type="text" id="employeeEmail" class="form-control" placeholder="Input Email" name="employeeEmail">
+                    <input type="text" id="employeeEmail" class="form-control" placeholder="Input Email"
+                           name="employeeEmail">
                     <span class="input-group-text"><i class="fa-solid fa-square-phone"></i></span>
                 </div>
             </div>
@@ -93,46 +104,42 @@
             <div class="mt-3 form-group">
                 <label for="employeeAddress" class="h6">Address:</label>
                 <div class="input-group">
-                    <input type="text" id="employeeAddress" class="form-control" placeholder="Input Address" name="employeeAddress">
+                    <input type="text" id="employeeAddress" class="form-control" placeholder="Input Address"
+                           name="employeeAddress">
                     <span class="input-group-text"><i class="fa-solid fa-envelope-circle-check"></i></span>
                 </div>
             </div>
             <div class="mt-3 form-group">
-                <label class="h6" for="employeePositionId">Employee Type:</label>
+                <label class="h6" for="employeePositionId">Rent type:</label>
                 <div class="input-group">
                     <select id="employeePositionId" class="form-control" name="employeePositionId">
-                        <option value="1">Lễ tân</option>
-                        <option value="2">Phục vụ</option>
-                        <option value="3">Chuyên viên</option>
-                        <option value="4" selected>Giám sát</option>
-                        <option value="5" selected>Quản lý</option>
-                        <option value="6" selected>Giám đốc</option>
+                        <c:forEach var="positionType" items="${positionList}">
+                            <option value="${positionType.positionId}">${positionType.positionName}</option>
+                        </c:forEach>
                     </select>
-                    <span class="input-group-text"><i class="fa-solid fa-ranking-star"></i></span>
+                    <%--                    <span class="input-group-text"><i class="fa-solid fa-business-time"></i></span>--%>
                 </div>
             </div>
             <div class="mt-3 form-group">
-                <label class="h6" for="employeeEducationDegreeId">Employee Type:</label>
+                <label class="h6" for="employeeEducationDegreeId">Rent type:</label>
                 <div class="input-group">
                     <select id="employeeEducationDegreeId" class="form-control" name="employeeEducationDegreeId">
-                        <option value="1">Trung cấp</option>
-                        <option value="2">Cao Đẳng</option>
-                        <option value="3">Đại học</option>
-                        <option value="4" selected>Sau đại học</option>
+                        <c:forEach var="EducationDegreeType" items="${educationDegreeList}">
+                            <option value="${EducationDegreeType.educationDegreeId}">${EducationDegreeType.educationDegreeName}</option>
+                        </c:forEach>
                     </select>
-                    <span class="input-group-text"><i class="fa-solid fa-ranking-star"></i></span>
+                    <%--                    <span class="input-group-text"><i class="fa-solid fa-business-time"></i></span>--%>
                 </div>
             </div>
             <div class="mt-3 form-group">
-                <label class="h6" for="employeeDivisionId">Employee Type:</label>
+                <label class="h6" for="employeeDivisionId">Rent type:</label>
                 <div class="input-group">
                     <select id="employeeDivisionId" class="form-control" name="employeeDivisionId">
-                        <option value="1">Sale – Marketing</option>
-                        <option value="2">Hành Chính</option>
-                        <option value="3">Phục vụ</option>
-                        <option value="4" selected>Quản lý</option>
+                        <c:forEach var="divisionType" items="${divisionList}">
+                            <option value="${divisionType.divisionId}">${divisionType.divisionName}</option>
+                        </c:forEach>
                     </select>
-                    <span class="input-group-text"><i class="fa-solid fa-ranking-star"></i></span>
+                    <%--                    <span class="input-group-text"><i class="fa-solid fa-business-time"></i></span>--%>
                 </div>
             </div>
             <div class="mt-3 text-center">
@@ -143,9 +150,7 @@
         </form>
     </div>
 
-    <p class="text-left">
-        <a href="/employee"><i class="fa-solid fa-backward"></i> Back to Employee list</a>
-    </p>
+
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

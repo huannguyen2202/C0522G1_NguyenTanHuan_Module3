@@ -1,30 +1,30 @@
 package model;
 
 public class RentType {
-    private  int id;
-    private String name;
+    private int rentTypeId;
+    private String rentTypeName;
 
     public RentType() {
     }
 
-    public RentType(int id, String name) {
-        this.id = id;
-        this.name = name;
+    public RentType(int rentTypeId, String rentTypeName) {
+        this.rentTypeId = rentTypeId;
+        this.rentTypeName = rentTypeName;
     }
 
-    public int getId() {
-        return id;
+    public int getRentTypeId() {
+        return rentTypeId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setRentTypeId(int rentTypeId) {
+        this.rentTypeId = rentTypeId;
     }
 
-    public String getName() {
-        return name;
+    public String getRentTypeName() {
+        return rentTypeName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setRentTypeName(String rentTypeName) {
+        this.rentTypeName = rentTypeName;
     }
 }

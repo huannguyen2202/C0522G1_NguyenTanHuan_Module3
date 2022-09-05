@@ -24,15 +24,18 @@
     </style>
 </head>
 <body>
-<div class="mx-5 px-5 pt-3">
+<div style="background-image: url(https://anhdephd.vn/wp-content/uploads/2022/04/anh-nen-4k-logo-windows-cuc-chat-3840x2160-pixels.jpg)" class="mx-5 px-5 pt-3">
     <h2 class="text-left fw-bold">Add new Customer</h2>
 
     <p class="text-left mt-3"><a href="/"><i class="fa-solid fa-house-chimney h5 mx-1"></i> Back to HOME</a></p>
+    <p class="text-left">
+        <a href="/customer"><i class="fa-solid fa-backward"></i> Back to Customer list</a>
+    </p>
 
     <c:if test="${mess!=null}">
         <c:if test="${check}">
-            <div class="justify-content-center d-flex">
-                <div class="alert alert-success alert-dismissible fade show w-50">
+            <div class="justify-content-left d-flex">
+                <div class="alert alert-success alert-dismissible fade show w-35">
                     <strong>Congratulations!</strong> ${mess}
                     <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
                 </div>
@@ -40,8 +43,8 @@
         </c:if>
 
         <c:if test="${!check}">
-            <div class="justify-content-center d-flex">
-                <div class="alert alert-danger alert-dismissible fade show w-50">
+            <div class="justify-content-left d-flex">
+                <div class="alert alert-danger alert-dismissible fade show w-35">
                     <strong>Congratulations!</strong> ${mess}
                     <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
                 </div>
@@ -112,21 +115,17 @@
                     <span class="input-group-text"><i class="fa-solid fa-map-location-dot"></i></span>
                 </div>
             </div>
-
             <div class="mt-3 form-group">
-                <label class="h6" for="customerTypeId">Customer Type:</label>
+                <label class="h6" for="customerTypeId">Rent type:</label>
                 <div class="input-group">
                     <select id="customerTypeId" class="form-control" name="customerTypeId">
-                        <option value="1">Diamond</option>
-                        <option value="2">Platinium</option>
-                        <option value="3" selected>Gold</option>
-                        <option value="4" selected>Silver</option>
-                        <option value="5" selected>Member</option>
+                        <c:forEach var="customerType" items="${customerTypeList}">
+                            <option value="${customerType.id}">${customerType.name}</option>
+                        </c:forEach>
                     </select>
-                    <span class="input-group-text"><i class="fa-solid fa-ranking-star"></i></span>
+                    <%--                    <span class="input-group-text"><i class="fa-solid fa-business-time"></i></span>--%>
                 </div>
             </div>
-
             <div class="mt-3 text-center">
                 <button class="btn btn-info btn-sm border border-2 border-success">
                     -- Save <i class="fa-solid fa-floppy-disk"></i> --
@@ -135,9 +134,7 @@
         </form>
     </div>
 
-    <p class="text-left">
-        <a href="/customer"><i class="fa-solid fa-backward"></i> Back to Customer list</a>
-    </p>
+
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

@@ -1,30 +1,30 @@
 package model;
 
 public class FacilityType {
-    private int id;
-    private String name;
+    private int facilityTypeId;
+    private String facilityTypeName;
 
     public FacilityType() {
     }
 
-    public FacilityType(int id, String name) {
-        this.id = id;
-        this.name = name;
+    public FacilityType(int facilityTypeId, String facilityTypeName) {
+        this.facilityTypeId = facilityTypeId;
+        this.facilityTypeName = facilityTypeName;
     }
 
-    public int getId() {
-        return id;
+    public int getFacilityTypeId() {
+        return facilityTypeId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setFacilityTypeId(int facilityTypeId) {
+        this.facilityTypeId = facilityTypeId;
     }
 
-    public String getName() {
-        return name;
+    public String getFacilityTypeName() {
+        return facilityTypeName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFacilityTypeName(String facilityTypeName) {
+        this.facilityTypeName = facilityTypeName;
     }
 }

@@ -33,8 +33,10 @@
 <body>
 <div style="background-image: url(https://mega.com.vn/media/news/2306_hinh-nen-4k34.jpg); height: 750px">
     <div class="p-3">
-        <h2 style="font-family: 'UTM Flamenco';font-size: 60px;color:white" class="text-center fw-bold">EMPLOYEE LIST</h2>
-        <a href="/"><i class="fa-solid fa-house-chimney h5 mx-1"></i> Back to HOME</a>
+        <h2 style="font-family: 'UTM Flamenco';font-size: 60px;color:white" class="text-center fw-bold">EMPLOYEE
+            LIST</h2>
+<%--        <a href="/"><i class="fa-solid fa-house-chimney h5 mx-1"></i> Back to HOME</a>--%>
+        <p class="text-center mt-3"><a href="/"><i class="fa-solid fa-house-chimney h5 mx-1"></i> Back to HOME</a></p>
         <nav class="navbar navbar-expand-lg pb-0 mb-0">
             <div class="container-fluid">
                 <a href="/employee?action=create">
@@ -77,32 +79,52 @@
             <tbody>
             <c:forEach varStatus="status" var="employee" items="${employeeList}">
                 <tr text-light>
-                    <td  style="color: white" class="text-center">${status.count}</td>
+                    <td style="color: white" class="text-center">${status.count}</td>
                     <td style="color: white">${employee.employeeName}</td>
                     <td style="color: white" class="text-center">${employee.employeeDateOfBirth}</td>
-<%--                    <c:if test="${customer.gender == 1}">--%>
-<%--                        <td style="color: white" class="text-center">Male</td>--%>
-<%--                    </c:if>--%>
-<%--                    <c:if test="${customer.gender == 0}">--%>
-<%--                        <td style="color: white" class="text-center">Female</td>--%>
-<%--                    </c:if>--%>
+                        <%--                    <c:if test="${customer.gender == 1}">--%>
+                        <%--                        <td style="color: white" class="text-center">Male</td>--%>
+                        <%--                    </c:if>--%>
+                        <%--                    <c:if test="${customer.gender == 0}">--%>
+                        <%--                        <td style="color: white" class="text-center">Female</td>--%>
+                        <%--                    </c:if>--%>
 
                     <td style="color: white" class="text-center">${employee.employeeIdCard}</td>
                     <td style="color: white" class="text-center">${employee.employeeSalary}</td>
                     <td style="color: white">${employee.employeePhoneNumber}</td>
                     <td style="color: white">${employee.employeeEmail}</td>
                     <td style="color: white">${employee.employeeAddress}</td>
-                    <c:forEach var="customerType" items="${customerTypeList}">
-                        <c:if test="${customerType.id == customer.customerTypeId}">
-                            <td style="color: white" class="text-center">${customerType.name}</td>
+
+                    <c:forEach var="position" items="${positionList}">
+                        <c:if test="${position.positionId == employee.employeePositionId}">
+                            <td style="color: white" class="text-center">${position.positionName}</td>
                         </c:if>
                     </c:forEach>
-                    <td style="color: white" class="text-center">${employee.employeePositionId}</td>
-                    <td style="color: white" class="text-center">${employee.employeeEducationDegreeId}</td>
-                    <td style="color: white" class="text-center">${employee.employeeDivisionId}</td>
-                    <td style="color: white" class="text-center"><a href="/employee?action=edit&id=${employee.employeeId}">
-                        <span class="fa-regular fa-pen-to-square text-primary h4 m-auto"></span>
-                    </a></td>
+
+                    <c:forEach var="educationDegree" items="${educationDegreeList}">
+                        <c:if test="${educationDegree.educationDegreeId == employee.employeeEducationDegreeId}">
+                            <td style="color: white" class="text-center">${educationDegree.educationDegreeName}</td>
+                        </c:if>
+                    </c:forEach>
+                    <c:forEach var="division" items="${divisionList}">
+                        <c:if test="${division.divisionId == employee.employeeDivisionId}">
+                            <td style="color: white" class="text-center">${division.divisionName}</td>
+                        </c:if>
+                    </c:forEach>
+
+
+                        <%--                    <td style="color: white" class="text-center">${employee.employeeDivisionId}</td>--%>
+<%--                    <td style="color: white" class="text-center"><a--%>
+<%--                            href="/employee?action=edit&id=${employee.employeeId}">--%>
+<%--                        <span class="fa-regular fa-pen-to-square text-light h6 m-auto px-2"></span>--%>
+<%--                    </a></td>--%>
+                    <td class="text-center">
+                        <a href="/employee?action=edit&id=${employee.employeeId}">
+                            <button class="btn btn-primary btn-outline-secondary btn-sm">
+                                <span class="fa-regular fa-pen-to-square text-light h6 m-auto px-2"></span>
+                            </button>
+                        </a>
+                    </td>
 
                     <td style="color: white" class="text-center">
                         <button onclick="deleteEmployee('${employee.employeeId}','${employee.employeeName}')"

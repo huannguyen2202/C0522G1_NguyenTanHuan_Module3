@@ -31,7 +31,7 @@
     </style>
 </head>
 <body>
-<div style="background-image: url(https://anhnendep.net/wp-content/uploads/2018/10/hinh-nen-4k-tuyet-dep-cho-may-tinh-08.jpg);height: 750px">
+<div style="background-image: url(https://mega.com.vn/media/news/2306_hinh-nen-4k34.jpg);height: 750px">
 <div class="p-3">
     <h2 style="font-family: 'UTM Flamenco';font-size: 60px;color:white" class="text-center fw-bold">CUSTOMER LIST</h2>
 <%--    <a href="/customer?action=create">--%>
@@ -39,7 +39,8 @@
 <%--            <span class="fa-solid fa-file-circle-plus text-light h5 my-auto me-1"></span> Add new Customer--%>
 <%--        </button>--%>
 <%--    </a>--%>
-    <a href="/"><i class="fa-solid fa-house-chimney h5 mx-1"></i> Back to HOME</a>
+<%--    <a href="/"><i class="fa-solid fa-house-chimney h5 mx-1"></i> Back to HOME</a>--%>
+    <p class="text-center mt-3"><a href="/"><i class="fa-solid fa-house-chimney h5 mx-1"></i> Back to HOME</a></p>
     <nav class="navbar navbar-expand-lg pb-0 mb-0">
         <div class="container-fluid">
             <a href="/customer?action=create">
@@ -93,14 +94,21 @@
                 <td style="color: white" class="text-center">${customer.phoneNumber}</td>
                 <td style="color: white">${customer.email}</td>
                 <td style="color: white">${customer.address}</td>
-<%--                <c:forEach var="customerType" items="${customerTypeList}">--%>
-<%--                    <c:if test="${customerType.id == customer.customerTypeId}">--%>
-<%--                        <td style="color: white" class="text-center">${customerType.name}</td>--%>
-<%--                    </c:if>--%>
-<%--                </c:forEach>--%>
-                <td style="color: white" class="text-center"><a href="/customer?action=edit&id=${customer.id}">
-                    <span class="fa-regular fa-pen-to-square text-primary h4 m-auto"></span>
-                </a></td>
+                <c:forEach var="customerType" items="${customerTypeList}">
+                    <c:if test="${customerType.id == customer.customerTypeId}">
+                        <td style="color: white" class="text-center">${customerType.name}</td>
+                    </c:if>
+                </c:forEach>
+<%--                <td style="color: white" class="text-center"><a href="/customer?action=edit&id=${customer.id}">--%>
+<%--                    <span class="fa-regular fa-pen-to-square text-light h6 m-auto px-2"></span>--%>
+<%--                </a></td>--%>
+                <td class="text-center">
+                    <a href="/customer?action=edit&id=${customer.id}">
+                        <button class="btn btn-primary btn-outline-secondary btn-sm">
+                            <span class="fa-regular fa-pen-to-square text-light h6 m-auto px-2"></span>
+                        </button>
+                    </a>
+                </td>
 
                 <td style="color: white" class="text-center">
                     <button onclick="deleteCustomer('${customer.id}','${customer.name}')"

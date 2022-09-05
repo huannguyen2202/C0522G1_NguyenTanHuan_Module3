@@ -98,6 +98,8 @@ public class CustomerServlet extends HttpServlet {
     }
 
     private void showCreateFrom(HttpServletRequest request, HttpServletResponse response) {
+        List<CustomerType> customerTypeList = iCustomerTypeService.findByAll();
+        request.setAttribute("customerTypeList", customerTypeList);
         RequestDispatcher dispatcher = request.getRequestDispatcher("view/customer/create.jsp");
         try {
             dispatcher.forward(request, response);
@@ -164,10 +166,10 @@ public class CustomerServlet extends HttpServlet {
 
         boolean check = iCustomerService.edit(customer);
         RequestDispatcher dispatcher = request.getRequestDispatcher("view/customer/edit.jsp");
-        String mess = "Update Customer successfully.";
+        String mess = "Chỉnh sửa thành công.";
 
         if (!check) {
-            mess = "Update Customer failed.";
+            mess = "Chỉnh sửa không thành công.";
         }
         request.setAttribute("mess", mess);
         request.setAttribute("check", check);
@@ -191,15 +193,14 @@ public class CustomerServlet extends HttpServlet {
         String address = request.getParameter("address");
         Customer customer = new Customer(customerTypeId, name, dateOfBirth, gender, idCard, phoneNumber, email, address);
         boolean check = iCustomerService.create(customer);
-        String mess = "Add new Customer successfully.";
+        String mess = "Thêm mới thành công.";
 
         if (!check) {
-            mess = "Add new Customer failed.";
+            mess = "Thêm mới không thành công.";
         }
         request.setAttribute("mess", mess);
         request.setAttribute("check", check);
 
         showCreateFrom(request, response);
-
     }
 }
